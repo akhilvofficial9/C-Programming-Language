@@ -1,0 +1,16 @@
+/* 6:Program to enter the marks of three students
+Author: Akhil Verma
+Date: 22 September,2020
+Practice Day:2*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int m1,m2,m3;
+clrscr();
+printf("Enter the values of marks in 3 subjects");
+scanf("%d%d%d", &m1,&m2,&m3);
+printf("You entered %d%d%d", m1,m2,m3);
+getch();
+}
