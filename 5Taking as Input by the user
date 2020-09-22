@@ -1,0 +1,16 @@
+/* 5:Program to print the values of a,b and c taken as input by the user
+Author: Akhil Verma
+Date: 22 September,2020
+Practice Day:2*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+printf("Enter the values: a,b,c:\n");
+scanf("%d%d%d",&a,&b,&c);
+printf("Value of a is %d,\nb is %d,\nand c is %d",a,b,c);
+getch();
+}
