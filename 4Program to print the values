@@ -1,0 +1,18 @@
+/* 4:Program to print the values of a=25,b=3.23,c=a+b*b-35
+Author: Akhil Verma
+Date: 22 September,2020
+Practice Day:2*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+float b;
+int c;
+a=25;
+b=3.23;
+c=a+b*b-35;
+printf("Value of a is %d,\nb is %f,\nc is %d\n", a,b,c);
+getch();
+}
